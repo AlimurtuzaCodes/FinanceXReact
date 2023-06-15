@@ -1,19 +1,20 @@
 import React from "react";
 
+
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center py-[20px]">
-      <div className="w-full flex justify-between px-[80px]">
-        <div className="flex flex-col text-lgrey font-rubik font-normal text-[16px]">
-          <h1 className="font-satoshi font-bold text-[22px] text-white">
+    <div className="flex flex-col items-center py-5">
+      <div className="w-full flex justify-around px-5 lg:px-10">
+        <div className="flex-1 flex-col text-lgrey font-rubik font-normal text-base">
+          <h1 className="font-satoshi font-bold text-2xl text-white">
             FinanceX
           </h1>
-          <p className="mt-[12px]">
-            Lorem ipsum dolor sit amet, <br /> consectetur
+          <p className="mt-3">
+            Lorem ipsum dolor sit amet, consectetur
           </p>
           <div></div>
         </div>
-        <div className="flex flex-col text-lgrey font-rubik font-normal text-[16px]">
+        <div className="flex-1 flex-col text-lgrey font-rubik font-normal text-base">
           <h1 className="font-satoshi font-bold text-[22px]">Company</h1>
           <div className="flex flex-col gap-[10px] mt-[12px]">
             <a href="#aboutus">About Us</a>
@@ -22,7 +23,7 @@ const Footer = () => {
             <a href="#pricing">Pricing</a>
           </div>
         </div>
-        <div className="flex flex-col text-lgrey font-rubik font-normal text-[16px]">
+        <div className="flex-1 flex-col text-lgrey font-rubik font-normal text-base">
           <h1 className="font-satoshi font-bold text-[22px]">Resources</h1>
           <div className="flex flex-col gap-[10px] mt-[12px]">
             <a href="#templates">Templates</a>
@@ -31,7 +32,7 @@ const Footer = () => {
             <a href="#contracttemplates">Contract templates</a>
           </div>
         </div>
-        <div className="flex flex-col text-lgrey font-rubik font-normal text-[16px]">
+        <div className="hidden lg:flex lg:flex-1 flex-col text-lgrey font-rubik font-normal text-base">
           <h1 className="font-satoshi font-bold text-[22px]">
             Join Our Newsletter
           </h1>
@@ -46,13 +47,13 @@ const Footer = () => {
             </button>
           </div>
           <p className="mt-[20px] text-[14px]">
-            * Will send you weekly updates for your better <br /> finance
+            * Will send you weekly updates for your better finance
             management.
           </p>
         </div>
       </div>
-      <hr className="w-full bg-white h-[0.5px] my-[40px]" />
-      <h1 className="font-satoshi font-medium text-[16px] text-lgrey">Copyright @ Alimurtuza Patrawala 2023.All Rights Reserved</h1>
+      <hr className="w-full bg-white h-[0.5px] my-10" />
+      <h1 className="mx-14 sm:mx-0 font-satoshi font-medium text-[16px] text-lgrey text-center">Copyright @ Alimurtuza Patrawala 2023. All Rights Reserved</h1>
     </div>
   );
 };

@@ -14,6 +14,7 @@ import globeIcon from "./globeIcon.svg";
 import signalIcon from "./signalIcon.svg";
 import arrowLeftSmall from "./arrowLeftSmall.svg";
 import arrowRightSmall from "./arrowRightSmall.svg";
+import hamburgerMenu from "./hamburgerMenu.svg";
 
 export {
   arrowRight,
@@ -32,4 +33,5 @@ export {
   signalIcon,
   arrowLeftSmall,
   arrowRightSmall,
+  hamburgerMenu,
 };

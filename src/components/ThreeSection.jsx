@@ -4,28 +4,24 @@ import { threeSection } from "../constants";
 
 const ThreeSection = () => {
   return (
-    <section className="mx-[120px] flex my-[50px] justify-center items-center">
+    <section className="mx-5 lg:mx-10 flex flex-col md:flex-row my-14 justify-center items-center">
       {threeSection.map((section, index) => {
         return (
-          <div className="group flex-1" key={section.id}>
-            <div
-              className="border border-blackborder flex flex-col items-start px-[50px] py-[60px] 
-                transition ease delay-120 group-hover:bg-blackborder"
-            >
-              <div
-                className="w-[46px] h-[46px] bg-white transition ease delay-120 group-hover:bg-secondary 
-                  flex justify-center items-center"
-              >
+          <div className="group lg:flex-1 w-11/12" key={section.id}>
+            <div className="border border-blackborder flex flex-col items-start px-8 lg:px-12 py-14 transition ease delay-120 group-hover:bg-blackborder">
+              <div className="w-12 h-12 bg-white transition ease delay-120 group-hover:bg-secondary flex justify-center items-center">
                 <img src={section.img} alt="" />
               </div>
-              <h1 className="text-white font-satoshi font-bold text-[32px] my-[24px] whitespace-pre-wrap">
+              <h1 className="text-white font-satoshi font-bold text-3xl leading-tight my-6 whitespace-pre-wrap">
                 {section.title}
               </h1>
-              <p className="text-lgrey font-rubik font-normal text-[16px] leading-[24px] whitespace-pre-wrap">
+              <p className="text-lgrey font-rubik font-normal text-base leading-6 whitespace-pre-wrap">
                 {section.subtitle}
               </p>
-              <div className="flex items-center justify-center gap-[8px] mt-[16px]">
-                <h1 className="text-white font-satoshi font-bold text-[16px]">Learn More</h1>
+              <div className="flex items-center justify-center space-x-4 mt-4">
+                <h1 className="text-white font-satoshi font-bold text-base">
+                  Learn More
+                </h1>
                 <img src={arrowRight} alt="" />
               </div>
             </div>

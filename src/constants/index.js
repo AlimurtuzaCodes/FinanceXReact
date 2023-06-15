@@ -81,20 +81,20 @@ export const services = [
 export const threeSection = [
   {
     id: "local",
-    title: "Local business\nfinance",
-    subtitle: "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit ut",
+    title: "Local business finance",
+    subtitle: "Lorem ipsum dolor sit amet,consectetur adipiscing elit ut",
     img: gpsIcon,
   },
   {
     id: "built",
-    title: "Built for global\npayments",
-    subtitle: "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit ut",
+    title: "Built for global payments",
+    subtitle: "Lorem ipsum dolor sit amet,consectetur adipiscing elit ut",
     img: globeIcon,
   },
   {
     id: "make",
-    title: "Make internet of\nMoney",
-    subtitle: "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit ut",
+    title: "Make internet of Money",
+    subtitle: "Lorem ipsum dolor sit amet,consectetur adipiscing elit ut",
     img: signalIcon,
   },
 ];
