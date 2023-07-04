@@ -36,7 +36,7 @@ const Footer = () => {
           <h1 className="font-satoshi font-bold text-[22px]">
             Join Our Newsletter
           </h1>
-          <div className="mt-[12px]">
+          <div className="mt-[12px] flex">
             <input
               type="email"
               className="w-[250px] h-[44px] bg-lgrey font-rubik font-normal text-[16px] placeholder-lblack px-[16px] py-[6px]"
